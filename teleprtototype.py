@@ -64,7 +64,9 @@ elif a==2:
         f1.close
         f1 = open('contacts2.txt')
         content=f1.readlines()
-        print(content[index:index+2])
+        m=content[index:index+2]
+        for i in m:
+            print(i,end='')
         
 
 
